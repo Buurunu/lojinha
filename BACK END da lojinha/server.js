@@ -17,7 +17,7 @@ app.use('/compras', compraRoutes);
 
 // root da API
 app.get('/', (req, res) => {
-    res.send('Rota da API aberta');
+    res.send('Lojinha Open');
 });
 
 // Iniciando o servidor na port definida
