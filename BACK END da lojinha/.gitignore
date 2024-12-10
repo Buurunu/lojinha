@@ -1,8 +1,1 @@
-host: 'localhost',
-    user: 'root',
-    password: 'mybururu2023',
-    database: 'lojinha_db',
-    waitForConnections: true,
-    connectionLimit: 10,
-    queueLimit: 0
 .env
