@@ -6,7 +6,7 @@ exports.createCompra = async (data) => {
     // Query para inserir uma nova compra na tabela 'compras'
     const query = "INSERT INTO compras (id_cliente, total) VALUES (?, ?)";
     // Usando o método 'execute' para executar a query com os parâmetros fornecidos
-    const [result] = await pool.execute(query, [cliente_id, total]); 
+    const [result] = await pool.execute(query, [cliente_id, total]);  // Não precisa enviar data_compra
     return result;  // Retorna o resultado da operação (a compra criada)
 }
 
